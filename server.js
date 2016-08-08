@@ -77,7 +77,6 @@ app.post("/aksamanereyegitsem",function(req,res){
             
         req.session.deger  =req.body.deger;
         urlim = getYelpUrl(req.body.deger,req.session.lang); 
-        req.session.url = urlim;
         parseInfo(req,res,urlim);
     }else{
         req.session.lang  = req.body.lang;
@@ -155,7 +154,8 @@ app.get('/aksamanereyegitsem/auth/callback', function(req, res, next) {
           req.session.oauth.access_token_secret = oauth_access_token_secret;
           userName = req.session.user =  results.screen_name ;
           req.session.twitterId = results.user_id;
-          parseInfo(req,res,req.session.url);
+          urlim = getYelpUrl(req.body.deger,req.session.lang); 
+          parseInfo(req,res,urlim);
           //res.send("Authentication Successful");
           //res.redirect('/aksamanereyegitsem');
         }
