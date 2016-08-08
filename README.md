@@ -25,13 +25,15 @@ $ cd your-project
 $ npm install
 ```
 
-This will install the shorthener.js components into the `your-project` directory.
+This will install the server.js components into the `your-project` directory.
 
+Also, you must create yelp (https://www.yelp.com/developers/manage_api_keys) and twitter api keys (https://apps.twitter.com), and define
+as enviroment variables.
 
 
 ### Starting the App
 
-To start the app, make sure you're in the project directory and type `node shorthener.js` into the terminal. This will start the Node server 
+To start the app, make sure you're in the project directory and type `node server.js` into the terminal. This will start the Node server 
 
 You should the following messages within the terminal window:
 
