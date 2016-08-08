@@ -1,0 +1,105 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color:white;
+    background: #511 url('/Restaurant.png');
+     background-size: 500px 500px;
+        background-repeat: no-repeat;
+       background-position:  top;
+    text-align: center;
+    }
+
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover   {color:white; background-color:transparent; text-decoration:none}
+a:active  {color:white; background-color:transparent; text-decoration:none} 
+
+.mekan{
+
+    text-align:left;
+    height:150px;
+    }
+    
+.mekan:hover{
+    border-top-style: outset;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: 1px 1px 2px 1px #111;
+}
+.mekanHead{
+    color:#441;
+}
+div{
+    padding:5px;
+}
+.w3-input{
+    width:30%
+}
+
+input[type=text] {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,.5);
+    color:white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    opacity: 1;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    width: 60%;
+    border-radius: 10px;
+    color:white;
+    background-color: rgba(0,0,0,.9);
+}
+.myBtn{
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color:#aaa;
+  width:100px;
+  height: 30px;
+  font-size: 16px;
+  background-color: rgba(100,0,90,0.5);
+}
+.myBtn:hover{
+ box-shadow: 0px 0px 5px #ccc;
+}
+.myBtn:active{
+ background-color: rgba(120,0,100,0.9);
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px  rgba(100,0,90,.5) inset !important;
+}
+#inTur{
+    width: 35px;
+    height: 35px;
+    background: #000 url('/turkish.png');
+    background-size: 30px;
+    border: 2px  solid black ;
+    z-index: -1;
+    text-indent:-9999px;
+}
+#inEng{
+    width: 35px;
+    height: 35px;
+    background: #000 url('/english.png');
+    background-size: 30px;
+    border: 2px  solid black ;
+    text-indent:-9999px;
+}
+.container{
+        padding-top:100px;
+}
+#myForm{
+    margin:100px;
+}
+.gitBtn:active{
+    opacity: 0.8;
+}
